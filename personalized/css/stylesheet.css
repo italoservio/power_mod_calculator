@@ -1,0 +1,32 @@
+/* ---------------------------------------------------- Font ---------------------------------------------------------*/
+@font-face {
+    font-family: "Aleo";
+    src: url(../font/Aleo-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Aleo-Bold";
+    src: url(../font/Aleo-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Aleo-Light";
+    src: url(../font/Aleo-Light.ttf);
+}
+
+.font-aleo
+{
+    font-family: Aleo;
+}
+
+.font-aleo-bold
+{
+    font-family: Aleo-Bold;
+}
+
+.font-aleo-light
+{
+    font-family: Aleo-Light;
+}
+
+/* ---------------------------------------------------- Buttons ------------------------------------------------------*/

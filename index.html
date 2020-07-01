@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head -->
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="framework/css/bootstrap.min.css">
+    <link rel="stylesheet" href="framework/css/bootstrap-grid.min.css">
+
+    <!--CSS Personalizado-->
+    <link rel="stylesheet" href="personalized/css/stylesheet.css">
+
+    <title>Potência em Z(n)</title>
+</head>
+
+<!-- Body -->
+<body class="bg-dark">
+
+<div class="container mt-5 ">
+
+    <!--Cabecalho-->
+    <div class="row mx-0">
+        <div id="header" class="col-lg-6 mx-auto px-0">
+            <div class="bg-light p-2 text-center py-3">
+                <h3 class="font-aleo text-secondary mb-0">Potência em <i class="text-warning">Z(n)</i></h3>
+            </div>
+        </div>
+    </div>
+
+    <div id="passo1">
+        <!--Input Base, Expoente e Z(n)-->
+        <div class="row mx-0 mx-auto">
+            <div class="col-lg-6 mx-auto bg-light p-4">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <label for="base" class="font-aleo text-secondary">Base:</label>
+                        <input id="base" type="text" class="form-control rounded-0">
+                    </div>
+
+                    <div class="col-lg-4">
+                        <label for="expoente" class="font-aleo text-secondary">Expoente:</label>
+                        <input id="expoente" type="text" class="form-control rounded-0">
+                    </div>
+
+                    <div class="col-lg-4">
+                        <label for="zn" class="font-aleo text-secondary">Z(n):</label>
+                        <input id="zn" type="text" class="form-control rounded-0">
+                    </div>
+                </div>
+
+                <button class="btn btn-outline-primary float-right mt-4 rounded-0 font-aleo-bold" onclick="Calculate(); return false;">Calcular</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="passo2" class="d-none">
+        <div class="row mx-0 ">
+            <div class="col-lg-10 mx-auto px-0">
+                <div class="bg-light p-4">
+                    <!--Impressão dos valores-->
+                    <small class="font-aleo-bold">Z(n): <span id="print-zn" class="text-primary"></span></small><br>
+                    <small class="font-aleo-bold">Base: <span id="print-base" class="text-primary"></span></small><br>
+                    <small class="font-aleo-bold">Expoente: <span id="print-exp" class="text-primary"></span></small>
+
+                    <!--Tabela-->
+                    <div class="overflow-auto">
+                        <!--Tabela onde será impresso o calculo-->
+                        <table class="table mt-5 text-center">
+                            <thead>
+                            <!--Cabeçalho da tabela-->
+                                <tr id="t-cabecalho" class="font-aleo-light">
+                                </tr>
+                            </thead>
+                            <tbody>
+                            <!--Linha 1 da tabela-->
+                                <tr id="t-potencia">
+                                </tr>
+                            <!--Linha 2 da tabela-->
+                                <tr id="t-mod">
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!--Valores que serão multiplicados:-->
+                    <small class="font-aleo-bold">Serão multiplicados: <span id="print-multiplicados" class="text-secondary"></span></small>
+
+                    <!--Resultado:-->
+                    <h5 class="font-aleo">Resultado: <span id="print-resultado" class="text-success"></span></h5>
+
+                    <!--Recomeçar-->
+                    <div class="text-center pt-4">
+                        <a href="#" class="btn btn-outline-primary rounded-0 font-aleo-bold" onclick="Voltar();">Voltar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Direitos autorais-->
+    <div class="row mx-0 mt-2">
+        <div id="copy" class="col-lg-6 mx-auto px-0">
+            <p class="text-white font-aleo float-right text-right">
+                <small class="text-secondary">Desenvolvedor:</small> Ítalo Sérvio Carvalho <br>
+                <small class="text-secondary">Orientador:</small> Wilmar Ferreira de Freitas
+            </p>
+        </div>
+    </div>
+
+</div>
+
+<!-- Optional JavaScript -->
+<script src="framework/js/jquery-3.5.1.min.js"></script>
+<script src="framework/js/bootstrap.min.js"></script>
+<script src="framework/js/bootstrap.bundle.min.js"></script>
+
+<!--Calculo-->
+<script src="personalized/js/calculate.js"></script>
+</body>
+</html>
