@@ -7,41 +7,42 @@ I was starting in JavaScript, I believe it is possible to do it in some other wa
 
 <br />
 
-<h4 align="center"> 
+<h3 align="center"> 
 	🟢 Status: Concluded
-</h4>
+</h3>
 
 <br />
 
-<h4 align="center">😍 How to use</h4>
-<p>On the first screen enter the values into the calculator:</p>
+<h3 align="center">😍 How to use</h3>
+<p align="center">On the first screen enter the values into the calculator:</p>
 <h1 align="center">
-  <img alt="First screen" title="First screen" src="https://imgur.com/ss9Co4u" />
+  <img alt="First screen" src="https://i.imgur.com/ss9Co4u.png" />
 </h1>
 
 <br />
 
-<p>The calculator will demonstrate algorithm construction and the final result:</p>
+<p align="center">The calculator will demonstrate algorithm construction and the final result:</p>
 <h1 align="center">
-  <img alt="Second screen" title="Second screen" src="https://imgur.com/kmxFuIb" />
+  <img alt="Second screen" src="https://i.imgur.com/kmxFuIb.png" />
 </h1>
 
 <br />
 
-<h4 align="center">🧠 Understanding</h4>
+<h3 align="center">🧠 Understanding</h3>
 <h1 align="center">
-  <img alt="Demonstration" title="Demonstration" src="https://imgur.com/Nce6SWx" />
+  <img alt="Demonstration" src="https://i.imgur.com/Nce6SWx.png" />
 </h1>
-<p>The results in the columns of the red numbers will be multiplied and after the mod, you will get the final result:</p>
+<p align="center">The results in the columns of the red numbers will be multiplied and after the mod, you will get the final result:</p>
 
 <br />
 
-<h4 align="center">⚒️ Tools</h4>
-- [Bootstrap](https://getbootstrap.com/)
-- [JQuery](https://jquery.com/)
+<h3 align="center">⚒️ Tools</h4>
+* <a href="https://getbootstrap.com/">Bootstrap</a>
+* <a href="https://jquery.com/">JQuery</a>
 
+<br />
 
-<table>
+<table align="center">
   <tr>
     <td align="center">
       <a href="https://github.com/ItaloServio">
