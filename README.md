@@ -36,12 +36,7 @@ I was starting in JavaScript, I believe it is possible to do it in some other wa
 
 <br />
 
-<h3 align="center">⚒️ Tools</h4>
-* <a href="https://getbootstrap.com/">Bootstrap</a>
-* <a href="https://jquery.com/">JQuery</a>
-
-<br />
-
+<h3 align="center">🎨 Contributor(s)</h4>
 <table align="center">
   <tr>
     <td align="center">
