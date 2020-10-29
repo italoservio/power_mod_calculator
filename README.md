@@ -21,7 +21,10 @@ I was starting in JavaScript, I believe it is possible to do it in some other wa
 
 <br />
 
-<p align="center">The calculator will demonstrate algorithm construction and the final result:</p>
+<p align="center">
+	The calculator will demonstrate algorithm construction and the final result. <br/>
+	The results in the columns of the red numbers will be multiplied and after the mod, you will get the final result:
+</p>
 <h1 align="center">
   <img alt="Second screen" src="https://i.imgur.com/kmxFuIb.png" />
 </h1>
@@ -32,7 +35,6 @@ I was starting in JavaScript, I believe it is possible to do it in some other wa
 <h1 align="center">
   <img alt="Demonstration" src="https://i.imgur.com/Nce6SWx.png" />
 </h1>
-<p align="center">The results in the columns of the red numbers will be multiplied and after the mod, you will get the final result:</p>
 
 <br />
 
@@ -41,7 +43,7 @@ I was starting in JavaScript, I believe it is possible to do it in some other wa
   <tr>
     <td align="center">
       <a href="https://github.com/ItaloServio">
-        <img style="border-radius: 50%;" src="https://avatars1.githubusercontent.com/u/60075865?s=460&u=407042a6a58218d29495ca19dda1bef5ca4540c3&v=4" width="100px;" alt="Profile"/>
+        <img src="https://avatars1.githubusercontent.com/u/60075865?s=460&u=407042a6a58218d29495ca19dda1bef5ca4540c3&v=4" width="100px;" alt="Profile"/>
         <br />
         <sub>
           <b>Ítalo Sérvio</b>
@@ -49,6 +51,3 @@ I was starting in JavaScript, I believe it is possible to do it in some other wa
       </a>
   </tr>  
 </table>
-
-
-Contact: italosc_20@hotmail.com
